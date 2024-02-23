@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #ff735c;
+    --color-secondary: #385a64;
+    --color-dark: #1a2e35;
+    --color-light: #f9f6ee;
+}
+
+/* Remover estilo de listas e links */
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.color-bg-gradient {
+    background: linear-gradient(144deg, var(--color-primary) 35%, var(--color-secondary) 90%);
+}
+
+.color-bg-light{
+    background: var(--color-light)
+}
+
+.color-bg-primary{
+    background: var(--color-primary);
+}
+
+.color-bg-secondary{
+    background: var(--color-secondary);
+}
+
+.color-text-dark{
+    color: var(--color-dark);
+}
+
+.color-text-light{
+    color: var(--color-light);
+}
+
+.active-link{
+    color: var(--color-light) !important;
+}
